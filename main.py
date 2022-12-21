@@ -3,7 +3,7 @@ from discord.ext import commands
 from time import sleep
 import asyncio
 
-token = "MTA1MTk0NTQ0NTEyOTE5NTUyMA.GHFVFR.xoMG8BF1rCd5TEbqRLePIaiiEGLge2Xu7ajOOc"
+token = ""
 intents = discord.Intents.all()
 block_words = ["nigger", "nigga", "http://", "https://", "discord.gg/", "wanker"]
 bot = commands.Bot(command_prefix='?', help_command=None, intents=intents)
