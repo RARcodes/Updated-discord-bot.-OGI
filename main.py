@@ -39,10 +39,7 @@ async def inv(ctx):
 
 @bot.command()
 async def service(ctx):
-    #### Create the initial embed object ####
     embed=discord.Embed(title="Our services", url="https://rar.codes/", description="This is all the information right now about what we will be doing in the furture", color=0x109319)
-
-    # Add author, thumbnail, fields, and footer to the embed
     embed.set_author(name="RARcodes", url="https://www.youtube.com/@RARcodes", icon_url="https://yt3.googleusercontent.com/o2uTWNDs4B8ExTwMoEe-y-zcSiMMowcKAqIS6-fRXcmQERl_jOOxxkfZZMVZW2MI21hA4jekFA=s88-c-k-c0x00ffffff-no-rj")
 
     embed.add_field(name="Tiktok tools", value="Our tiktok tools are comming out very soon! we have a couple avalible. but you will need to message the Owner or an Admin.", inline=False)
@@ -69,13 +66,12 @@ description = "**â€¢ ?help** `This command with give you our help screen`\n\n**â
 
 @bot.command()
 async def help(ctx):
-    # Create an embed with the specified title and description
     embed = discord.Embed(title=title, description=description, color=0x01fd1a)
     await ctx.send(embed=embed)
 
     
 print("OGI IS ONLINE")
-bot.run(token) # Running the bot
+bot.run(token) #tukz is black
 
 
 
